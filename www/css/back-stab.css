@@ -1,6 +1,6 @@
 
 body {
-	font-family: Helvetica Neue, Helvetica, sans1-serif;
+	font-family: 'Helvetica Neue', Helvetica, sans1-serif;
 	background: #ebeceb;
 }
 
@@ -35,7 +35,7 @@ div#bar h1 {
     display: inline-block;
     margin-right: 18px;
     vertical-align: middle;
-    font-family: 'Ubuntu', Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 ul#online-portals {
