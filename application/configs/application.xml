@@ -17,7 +17,10 @@
             </layout>
         </resources>
     </production>
-    <localhost zf:extends="production">
+    <development zf:extends="production">
+        <phpSettings display_startup_errors="1" display_errors="1" />
+    </development>
+    <localhost zf:extends="development">
         <phpSettings display_startup_errors="1" display_errors="1" />
     </localhost>
 </root>
