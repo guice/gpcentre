@@ -33,9 +33,9 @@
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $('#link').click(function() {
+        $('#link').click(function(e) {
             $('div#extra').slideToggle('medium');
-            return false;
+            e.preventDefault();
         });
     });
 </script>
