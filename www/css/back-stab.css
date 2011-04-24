@@ -77,9 +77,11 @@ footer span.email {
 }
 
 footer span.validators {
-    font-size: smaller;
+    font-size: xx-small;
+    color: #cbcccb;
 }
 
 footer span.validators a {
     text-decoration: none;
+    color: #cbcccb;
 }
